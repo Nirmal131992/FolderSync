@@ -8,4 +8,3 @@ dotnet run --project FolderSynchronizer.csproj -- "/path/to/source" "/path/to/ou
 ```
 
 Arguments: source directory, output directory, interval in seconds (0 < interval <= 86400), text log path. Quote paths containing spaces. The source must exist; the output and log's parent directory are created as needed. Keep the log outside both trees. Stop with Ctrl+C.
-# FolderSync
